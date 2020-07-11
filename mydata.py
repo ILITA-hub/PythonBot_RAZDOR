@@ -1,4 +1,3 @@
-
 import pyodbc
 
 class data_class:
