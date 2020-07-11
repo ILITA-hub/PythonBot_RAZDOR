@@ -1,4 +1,4 @@
-егор = "лошара"
+
 import random
 import discord
 import asyncio
