@@ -24,6 +24,7 @@ EMOJI_SPECIAL = 'bot_interest_'
 BOT_PREF = 'lox'
 
 Egor = 'loh'
+Egor = 'loh'
 
 
 client = discord.Client()
