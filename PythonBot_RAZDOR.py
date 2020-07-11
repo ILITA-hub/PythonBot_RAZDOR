@@ -1,4 +1,4 @@
-
+егор = "лошара"
 import random
 import discord
 import asyncio
@@ -22,6 +22,8 @@ MY_CHANNEL_PRIME_ID = '720984648381104210'
 
 EMOJI_SPECIAL = 'bot_interest_'
 BOT_PREF = 'lox'
+
+
 
 
 client = discord.Client()
