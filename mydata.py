@@ -22,7 +22,4 @@ class data_class:
 
         row = self.cursor.fetchone()
         return row
-
-
-
     
