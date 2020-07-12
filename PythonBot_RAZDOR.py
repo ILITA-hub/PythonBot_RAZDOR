@@ -8,7 +8,7 @@ from bs4 import SoupStrainer
 import datetime
 import pickle
 import os
-import mydata
+#import mydata
 
 DISCORD_BOT_TOKEN = 'NTk5MTU5MDY3OTU2NjA5MDMz.XWjN6A.GsFvA9wHsoVt1vHUaTXcKmUwdpM'
 DISCORD_BOT_CHATID = '<@!599159067956609033>'
@@ -31,10 +31,10 @@ client = discord.Client()
 
 def START():
     LOGprint("ЗАПУСКАЮСЬ, ЖДИ")
-    data = mydata.data_class()
-    BOT_PREF2 = data.get_param_value('BOT_PREF')
-    s =1
-    #client.run(DISCORD_BOT_TOKEN)
+    #data = mydata.data_class()
+    #BOT_PREF2 = data.get_param_value('BOT_PREF')
+    #s =1
+    client.run(DISCORD_BOT_TOKEN)
 
 
 def data_get():
